@@ -54,8 +54,45 @@ section h3 {
 	color: #E0EAF4;
 }
 
+footer {
+    background-color: #7C7062;
+    margin-top: 20px;
+    min-height: 150px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+footer h3 {
+	display: block;
+}
+
+footer ul {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+li h3 {
+
+}
+
+footer li {
+	list-style: none;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
 .bio {
 	width: 40%;
+	text-align: justify;
+	margin: 0 auto 40px auto;
+}
+
+.links {
+	width: 60%;
 	text-align: justify;
 	margin: 0 auto 40px auto;
 }
