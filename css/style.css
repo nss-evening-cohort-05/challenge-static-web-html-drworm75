@@ -1,7 +1,74 @@
-.nav-bar {
-	background-color: #FFB4B0
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Laila', serif;*/
+
+* {
+   margin: 0px;
+   padding: 0px;
 }
 
-.nav-bar li {
-	
+body {
+	background-color: #B4A28F;
+	font-family: 'Laila', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Indie Flower', cursive;
+}
+
+
+
+header {
+	background-color: #1A62A3;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+header h1, h2 {
+	color: #E0EAF4;
+	text-align: right;
+	padding-right: 10%;
+}
+
+header h1 {
+	margin-bottom: 3px;
+}
+
+header h2 {
+	margin-top: 3px;
+}
+
+header img {
+	width: 180px;
+	height: 180px;
+	float: left;
+	position: absolute;
+	top: 5px;
+	left: 80px;
+	border: 2px solid #F7F6F4;
+	border-radius: 10px;
+}
+
+section h3 {
+	text-align: center;
+	color: #E0EAF4;
+}
+
+.bio {
+	width: 40%;
+	text-align: justify;
+	margin: 0 auto 40px auto;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 10%;
+}
+
+.projects section {
+	background-color: #005099;
+	min-height: 300px;
+	min-width: 40%;
 }
