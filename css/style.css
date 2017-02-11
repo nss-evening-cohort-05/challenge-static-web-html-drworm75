@@ -1,6 +1,9 @@
 /*font-family: 'Indie Flower', cursive;
 font-family: 'Laila', serif;*/
 
+/****************************
+Base Styles for Page
+****************************/
 * {
    margin: 0px;
    padding: 0px;
@@ -16,10 +19,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+/****************************
+Header
+****************************/
 header {
 	background-color: #1A62A3;
 	width: 100%;
+	/*header placement*/
 	margin-top: 50px;
 	margin-bottom: 80px;
 }
@@ -38,6 +44,7 @@ header h2 {
 	margin-top: 3px;
 }
 
+/* placing img over header */
 header img {
 	width: 180px;
 	height: 180px;
@@ -48,41 +55,12 @@ header img {
 	border: 2px solid #F7F6F4;
 	border-radius: 10px;
 }
-
+/****************************
+Styling for articles 
+****************************/
 section h3 {
 	text-align: center;
 	color: #E0EAF4;
-}
-
-footer {
-    background-color: #7C7062;
-    margin-top: 20px;
-    min-height: 150px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-}
-
-footer h3 {
-	display: block;
-}
-
-footer ul {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    /* flex-wrap: wrap; */
-}
-
-li h3 {
-
-}
-
-footer li {
-	list-style: none;
-	display: inline;
-	padding: 0 10px 0 10px;
 }
 
 .bio {
@@ -108,4 +86,37 @@ footer li {
 	background-color: #005099;
 	min-height: 300px;
 	min-width: 40%;
+}
+
+/****************************
+Styling for footer
+****************************/
+
+footer {
+    background-color: #7C7062;
+    margin-top: 20px;
+    min-height: 150px;
+    /* display: flex; */
+     align-items: center; 
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+footer h3 {
+	display: block;
+}
+
+footer ul {
+    display: flex;
+  	align-items: center; 
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    min-height: inherit;
+}
+
+
+footer li {
+	list-style: none;
+	display: inline;
+	padding: 0 10px 0 10px;
 }
